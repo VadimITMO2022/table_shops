@@ -13,7 +13,7 @@ import os #библиотека операционной системы
 
 def calculate_data(k):
     if k==1 or k==2:
-       sql_name="data\\shops.db"
+       sql_name="shops.db"
 
     '''
     if k==3 or k==4:
