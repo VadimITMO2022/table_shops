@@ -8,7 +8,7 @@ from read_sqlalchemy import extract_from_sqlalchemy
 from read_txt import extract_from_file
 from read_csv import extract_from_csv_file
 #from dotenv import load_dotenv
-#import os #библиотека операционной системы
+import os #библиотека операционной системы
 
 
 def calculate_data(k):
@@ -25,7 +25,6 @@ def calculate_data(k):
         f_password = os.getenv("f_password")
         f_port = os.getenv("f_port")
     '''
-
 
     if k ==1:
         data=extract_from_sqlite(sql_name) # извлечь из БД SQLite
