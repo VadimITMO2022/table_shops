@@ -2,7 +2,7 @@ import numpy as np
 
 def extract_from_file():
 
-    with open("data\\file.txt", "r") as file:
+    with open("data/file.txt", "r") as file:
         k=0
         data=[]
         for line in file:
