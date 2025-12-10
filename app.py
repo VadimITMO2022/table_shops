@@ -16,7 +16,7 @@ app.layout = html.Div([
             {'label': 'txt file', 'value': 5}, # 5 извлечь из текстового файла
             {'label': 'CSV file', 'value': 6}, # 6 извлечь из файла csv
         ],
-        value=1,  # Default selected value
+        value=5,  # Default selected value
         id='radio-buttons-example',
    #     inline=True
     ),
