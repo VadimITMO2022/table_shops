@@ -2,7 +2,7 @@ import numpy as np
 import csv
 
 def extract_from_csv_file():
-    FILENAME = "data\\file.csv"   
+    FILENAME = "data/file.csv"   
     with open(FILENAME, "r", newline="") as file:
         reader = csv.reader(file)
         data=[]
